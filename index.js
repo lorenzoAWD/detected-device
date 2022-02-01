@@ -26,5 +26,6 @@ let isMobile = _isMobile()
 window.addEventListener('resize', () => {
     winsize = calcWinsize()
     isMobile = _isMobile()
-
 })
+
+module.exports = {isMobile}
