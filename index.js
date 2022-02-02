@@ -5,7 +5,7 @@ let winsize = calcWinsize()
 
 
 
-const _isMobile = () => {
+const isMobile = () => {
     if(
         winsize.width < 768
     ){
@@ -21,11 +21,43 @@ const _isMobile = () => {
     }
 
 }
-let isMobile = _isMobile()
+
+const isTablet = () => {
+    if(winsize.width >= 768 && winsize.width <=1024 && winsize.height <= 1024){
+
+            if(winsize.width < winsize.height){
+                return 'portrait'
+            }
+            else{
+                return 'landscape'
+            }
+    }
+    // else if(winsize.width >= 769 && winsize.width <=1365 && winsize.height <= 1023){
+
+    //         if(winsize.width > winsize.height){
+    //             return 'landscape'
+    //         }
+    //         else{
+    //             return false
+    //         }
+    // }
+    else{
+        return false
+    }
+
+}
+
+let detectedDevice = {
+    isMobile,
+    isTablet
+}
 
 window.addEventListener('resize', () => {
     winsize = calcWinsize()
-    isMobile = _isMobile()
+    // isMobile = _isMobile()
+    detectedDevice = {
+        isMobile
+    }
 })
 
-module.exports = {isMobile}
+module.exports = {detectedDevice}
