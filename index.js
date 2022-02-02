@@ -56,7 +56,8 @@ window.addEventListener('resize', () => {
     winsize = calcWinsize()
     // isMobile = _isMobile()
     detectedDevice = {
-        isMobile
+        isMobile,
+        isTablet
     }
 })
 
