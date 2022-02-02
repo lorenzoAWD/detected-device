@@ -24,28 +24,21 @@ const isMobile = () => {
 
 const isTablet = () => {
     if(winsize.width >= 768 && winsize.width <=1024 && winsize.height <= 1024){
-
-            if(winsize.width < winsize.height){
-                return 'portrait'
-            }
-            else{
-                return 'landscape'
-            }
+        if(winsize.width < winsize.height){
+            return 'portrait'
+        }
+        else{
+            return 'landscape'
+        }
     }
-    // else if(winsize.width >= 769 && winsize.width <=1365 && winsize.height <= 1023){
-
-    //         if(winsize.width > winsize.height){
-    //             return 'landscape'
-    //         }
-    //         else{
-    //             return false
-    //         }
-    // }
     else{
         return false
     }
-
 }
+
+// const isIpadPro = () => {
+//     if(winsize.width >= 1024)
+// }
 
 let detectedDevice = {
     isMobile,
