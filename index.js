@@ -19,7 +19,7 @@ const isMobile = () => {
             return 'portrait'
     }
     else if(
-        winsize.width > 767 && winsize.height < 500
+        winsize.width >= 768 && winsize.height < 500
     ){
         return 'landscape'
     }
@@ -30,7 +30,7 @@ const isMobile = () => {
 }
 
 const isTablet = () => {
-    if(winsize.width >= 768 && winsize.width <=1024 && winsize.height <= 1024){
+    if(winsize.width >= 768 && winsize.width <=1024 && winsize.height >= 500 && winsize.height <= 1024){
         if(winsize.width < winsize.height){
             return 'portrait'
         }
@@ -65,11 +65,6 @@ let detectedDevice = {
 
 window.addEventListener('resize', () => {
     winsize = calcWinsize()
-    // detectedDevice = {
-    //     isMobile,
-    //     isTablet,
-    //     isIpadPro
-    // }
 })
 
 module.exports = {detectedDevice}
