@@ -1,12 +1,20 @@
 {
-  "name": "mozz-device-detect",
+  "name": "mozz-detected-device",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzoAWD/mozz-detected-device.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lorenzoAWD/mozz-detected-device/issues"
+  },
+  "homepage": "https://github.com/lorenzoAWD/mozz-detected-device#readme",
+  "description": ""
 }

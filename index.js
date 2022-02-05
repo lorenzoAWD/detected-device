@@ -65,11 +65,11 @@ let detectedDevice = {
 
 window.addEventListener('resize', () => {
     winsize = calcWinsize()
-    detectedDevice = {
-        isMobile,
-        isTablet,
-        isIpadPro
-    }
+    // detectedDevice = {
+    //     isMobile,
+    //     isTablet,
+    //     isIpadPro
+    // }
 })
 
 module.exports = {detectedDevice}
