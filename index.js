@@ -1,7 +1,14 @@
-const calcWinsize = require('mozz-calc-winsize')
 
+const calcWinsize = () => {
+    return {
+        width: window.innerWidth,
+        height: window.innerHeight
+    }
+}
 
 let winsize = calcWinsize()
+
+
 
 
 
