@@ -13,14 +13,10 @@ let winsize = calcWinsize()
 
 
 const isMobile = () => {
-    if(
-        winsize.width < 768
-    ){
+    if(winsize.width < 768 && winsize.width < winsize.height){
             return 'portrait'
     }
-    else if(
-        winsize.width >= 480 && winsize.height < 600
-    ){
+    else if(winsize.width >= 480 && winsize.height < 600){
         return 'landscape'
     }
     else{
@@ -30,7 +26,7 @@ const isMobile = () => {
 }
 
 const isTablet = () => {
-    if(winsize.width >= 768 && winsize.width <=1024 && winsize.height >= 500 && winsize.height <= 1024){
+    if(winsize.width >= 768 && winsize.width <=1024 && winsize.height >= 600 && winsize.height <= 1024){
         if(winsize.width < winsize.height){
             return 'portrait'
         }
