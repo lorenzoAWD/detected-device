@@ -19,7 +19,7 @@ const isMobile = () => {
             return 'portrait'
     }
     else if(
-        winsize.width >= 768 && winsize.height < 500
+        winsize.width >= 480 && winsize.height < 600
     ){
         return 'landscape'
     }
