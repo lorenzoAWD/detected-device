@@ -36,7 +36,7 @@ import {detectedDevice} from 'detected-device'
 
 let isMobile = detectedDevice.isMobile()
 
-window.addEventListner('resize', () => {
+window.addEventListener('resize', () => {
     isMobile = detectedDevice.isMobile()
 })
 
