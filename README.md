@@ -7,12 +7,21 @@ Install
 npm i detected-device
 ```
 
-Import:
+Import
 ```php
 import {detectedDevice} from 'detected-device'
 ```
 
-Usage:
+Usage
 ```php
-import {detectedDevice} from 'detected-device'
+let isMobile = detectedDevice.isMobile()
+if(isMobile === 'portrait'){
+    //code for portrait smartphone here...
+}
+else if(isMobile === 'landscape'){
+    //code for landscape smartphone here...
+}
+else{
+    //is not mobile device
+}
 ```
