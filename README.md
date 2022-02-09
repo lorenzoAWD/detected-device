@@ -3,7 +3,7 @@ Get the device type, based on window.inmerWidth and window.innerHeight.
 
 ## Documentation
 
-###Install
+### Install
 ```php
 npm i detected-device
 ```
