@@ -62,7 +62,9 @@ detectedDevice.isAllTablet()
 
 ## Instance options
 
-| Option                                | Value      | 
-| ------------------------------------- | ---------- | 
-| `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false`  
-| `detectedDevice.isTablet()`           | `portrait`,`landscape`,`false`  
+| Option                                | Value      | Description      |
+| ------------------------------------- | ---------- | ---------------- |
+| `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false` |
+| `detectedDevice.isTablet()`           | `portrait`,`landscape`,`false` |
+| `detectedDevice.isIpadPro()`          | `portrait`,`landscape`,`false` |
+| `detectedDevice.isAllTablet()`        | `portrait`,`landscape`,`false` | isTablet && isIpadPro
