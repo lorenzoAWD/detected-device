@@ -14,6 +14,23 @@ import {detectedDevice} from 'detected-device'
 ```
 
 ### Usage
+
+#### Basic usage
+```php
+import {detectedDevice} from 'detected-device'
+
+let isMobile = detectedDevice.isMobile()
+if(isMobile === 'portrait'){
+    //code for portrait smartphone here...
+}
+else if(isMobile === 'landscape'){
+    //code for landscape smartphone here...
+}
+else{
+    //is not mobile device
+}
+```
+#### With `window.resize`
 ```php
 import {detectedDevice} from 'detected-device'
 
