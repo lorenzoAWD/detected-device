@@ -14,6 +14,8 @@ import {detectedDevice} from 'detected-device'
 
 Usage
 ```php
+import {detectedDevice} from 'detected-device'
+
 let isMobile = detectedDevice.isMobile()
 if(isMobile === 'portrait'){
     //code for portrait smartphone here...
