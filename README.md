@@ -1,9 +1,14 @@
 ## Info
-<!-- Get the device type, based on window.inmerWidth and window.innerHeight. -->
+Get the device type, based on window.inmerWidth and window.innerHeight.
 
 ## Documentation
-
-<!-- Eseguire il comando:
+Install
 ```php
-npm install
-``` -->
+npm i detected-device
+```
+
+
+Import:
+```php
+import {detectedDevice} from
+```
