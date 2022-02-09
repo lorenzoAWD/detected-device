@@ -40,6 +40,6 @@ detectedDevice.isAllTablet()
 
 ## Instance options
 
-| Option                  | Value      | 
-| ----------------------- | --------- | 
-| `detectedDevice.isMobile()`                    | `portrait`,`landscape`,`false`  
+| Option                                | Value      | 
+| ------------------------------------- | ---------- | 
+| `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false`  
