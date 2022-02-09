@@ -9,9 +9,6 @@ const calcWinsize = () => {
 let winsize = calcWinsize()
 
 
-
-
-
 const isMobile = () => {
     if(winsize.width < 768 && winsize.width < winsize.height){
             return 'portrait'
@@ -22,7 +19,6 @@ const isMobile = () => {
     else{
         return false
     }
-
 }
 
 const isTablet = () => {
@@ -53,10 +49,20 @@ const isIpadPro = () => {
     }
 }
 
+const isAllTablet = () => {
+    if(isTablet && isIpadPro){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
 let detectedDevice = {
     isMobile,
     isTablet,
-    isIpadPro
+    isIpadPro,
+    isAllTablet
 }
 
 window.addEventListener('resize', () => {
