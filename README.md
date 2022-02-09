@@ -43,3 +43,5 @@ detectedDevice.isAllTablet()
 | Option                                | Value      | 
 | ------------------------------------- | ---------- | 
 | `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false`  
+| ------------------------------------- | ---------- | 
+| `detectedDevice.isTablet()`           | `portrait`,`landscape`,`false`  
