@@ -40,6 +40,6 @@ detectedDevice.isAllTablet()
 
 ## Instance options
 
-| Option                  | Type      | Default                | Description                                                                                                                                                                                                                                                                                        |
+| Option                  | Value      | Default                | Description                                                                                                                                                                                                                                                                                        |
 | ----------------------- | --------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `detectedDevice.isMobile()`                    | `object`  | `document`             | Scroll container element.       
+| `detectedDevice.isMobile()`                    | `portrait`,`landscape`,`false`  | `document`             | Scroll container element.       
