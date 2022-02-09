@@ -8,12 +8,12 @@ Get the device type, based on window.inmerWidth and window.innerHeight.
 npm i detected-device
 ```
 
-Import
+### Import
 ```php
 import {detectedDevice} from 'detected-device'
 ```
 
-Usage
+### Usage
 ```php
 import {detectedDevice} from 'detected-device'
 
@@ -29,7 +29,7 @@ else{
 }
 ```
 
-Options
+### Options
 ```php
 
 detectedDevice.isMobile() 
