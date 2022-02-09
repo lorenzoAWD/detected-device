@@ -36,14 +36,6 @@ else{
 }
 ```
 
-### Options
-```php
-
-detectedDevice.isMobile() 
-detectedDevice.isTablet() 
-detectedDevice.isIpadPro() 
-detectedDevice.isAllTablet() 
-```
 
 ## Instance options
 
