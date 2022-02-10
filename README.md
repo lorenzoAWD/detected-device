@@ -39,4 +39,5 @@ else{
 | `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false` |
 | `detectedDevice.isTablet()`           | `portrait`,`landscape`,`false` |
 | `detectedDevice.isIpadPro()`          | `portrait`,`landscape`,`false` |
-| `detectedDevice.isAllTablet()`        | `portrait`,`landscape`,`false` | isTablet && isIpadPro
+| `detectedDevice.isAllTablet()`        | `true`,`false`                 | isTablet && isIpadPro
+| `detectedDevice.isAllMobileDevices()` | `true`,`false`                 | isMobile && isAllTablet
