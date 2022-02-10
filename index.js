@@ -50,7 +50,16 @@ const isIpadPro = () => {
 }
 
 const isAllTablet = () => {
-    if(isTablet && isIpadPro){
+    if(isTablet() && isIpadPro()){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+const isAllMobileDevices = () => {
+    if(isMobile() && isAllTablet()){
         return true
     }
     else{
@@ -62,7 +71,8 @@ let detectedDevice = {
     isMobile,
     isTablet,
     isIpadPro,
-    isAllTablet
+    isAllTablet,
+    isAllMobileDevices
 }
 
 window.addEventListener('resize', () => {
