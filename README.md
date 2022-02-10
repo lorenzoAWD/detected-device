@@ -8,9 +8,9 @@ Get the device type, based on window.inmerWidth and window.innerHeight.
 npm i detected-device
 ```
 
-### Usage
+## Usage
 
-#### Basic usage
+#### Basic
 ```php
 import {detectedDevice} from 'detected-device'
 
