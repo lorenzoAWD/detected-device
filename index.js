@@ -50,7 +50,7 @@ const isIpadPro = () => {
 }
 
 const isAllTablet = () => {
-    if(isTablet() && isIpadPro()){
+    if(isTablet() || isIpadPro()){
         return true
     }
     else{
@@ -59,7 +59,7 @@ const isAllTablet = () => {
 }
 
 const isAllMobileDevices = () => {
-    if(isMobile() && isAllTablet()){
+    if(isMobile() || isAllTablet()){
         return true
     }
     else{

@@ -39,5 +39,5 @@ else{
 | `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false` |
 | `detectedDevice.isTablet()`           | `portrait`,`landscape`,`false` |
 | `detectedDevice.isIpadPro()`          | `portrait`,`landscape`,`false` |
-| `detectedDevice.isAllTablet()`        | `true`,`false`                 | isTablet() && isIpadPro()
-| `detectedDevice.isAllMobileDevices()` | `true`,`false`                 | isMobile() && isAllTablet()
+| `detectedDevice.isAllTablet()`        | `true`,`false`                 | isTablet() || isIpadPro()
+| `detectedDevice.isAllMobileDevices()` | `true`,`false`                 | isMobile() || isAllTablet()
