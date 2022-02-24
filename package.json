@@ -1,11 +1,11 @@
 {
   "name": "detected-device",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["detected-device","device-detect","device winsize"],
   "author": "",
   "license": "ISC",
   "repository": {

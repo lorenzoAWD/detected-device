@@ -1,5 +1,5 @@
 ## Info
-Get the device type, based on window.inmerWidth and window.innerHeight.
+Get the device type, based on window.innerWidth and window.innerHeight.
 
 ## Documentation
 
