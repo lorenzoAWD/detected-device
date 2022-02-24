@@ -10,11 +10,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lorenzoAWD/mozz-detected-device.git"
+    "url": "git+https://github.com/lorenzoAWD/detected-device.git"
   },
   "bugs": {
-    "url": "https://github.com/lorenzoAWD/mozz-detected-device/issues"
+    "url": "https://github.com/lorenzoAWD/detected-device/issues"
   },
-  "homepage": "https://github.com/lorenzoAWD/mozz-detected-device#readme",
+  "homepage": "https://github.com/lorenzoAWD/detected-device#readme",
   "description": ""
 }
