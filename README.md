@@ -55,8 +55,8 @@ else{
 
 ## Instance options
 
-| Option                                | Value      | Description      |
-| ------------------------------------- | ---------- | ---------------- |
+| Option                                | Value      | Description       |
+| ------------------------------------- | ---------- | ----------------- |
 | `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false` |
 | `detectedDevice.isSmallTablet()`      | `portrait`,`landscape`,`false` |
 | `detectedDevice.isBigTablet()`        | `portrait`,`landscape`,`false` |
