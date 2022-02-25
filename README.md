@@ -1,6 +1,6 @@
 
 <h1 align="center">Detected Device</h1>
-<p align="center">Get the device type, based on window.innerWidth and window.innerHeight.</p>
+<p align="center">Get the device type, based on window.innerWidth and window.innerHeight</p>
 
 ## Installation
 ```sh
