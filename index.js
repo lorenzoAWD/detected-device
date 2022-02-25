@@ -21,7 +21,7 @@ const isMobile = () => {
     }
 }
 
-const isTablet = () => {
+const isSmallTablet = () => {
     if(winsize.width >= 768 && winsize.width <=1024 && winsize.height >= 600 && winsize.height <= 1024){
         if(winsize.width < winsize.height){
             return 'portrait'
@@ -35,7 +35,7 @@ const isTablet = () => {
     }
 }
 
-const isIpadPro = () => {
+const isBigTablet = () => {
     if(winsize.width >= 1024 && winsize.width <=1366 && winsize.height >= 1024){
         if(winsize.width < winsize.height){
             return 'portrait'
@@ -50,7 +50,7 @@ const isIpadPro = () => {
 }
 
 const isAllTablet = () => {
-    if(isTablet() || isIpadPro()){
+    if(isSmallTablet() || isBigTablet()){
         return true
     }
     else{
@@ -69,8 +69,8 @@ const isAllMobileDevices = () => {
 
 let detectedDevice = {
     isMobile,
-    isTablet,
-    isIpadPro,
+    isSmallTablet,
+    isBigTablet,
     isAllTablet,
     isAllMobileDevices
 }
