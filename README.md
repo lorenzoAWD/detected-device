@@ -60,5 +60,5 @@ else{
 | `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false` |
 | `detectedDevice.isSmallTablet()`      | `portrait`,`landscape`,`false` |
 | `detectedDevice.isBigTablet()`        | `portrait`,`landscape`,`false` |
-| `detectedDevice.isAllTablet()`        | `true`,`false`                 | isSmallTablet() <b>&#124; &#124;</b> isBigTablet()
-| `detectedDevice.isAllMobileDevices()` | `true`,`false`                 | isMobile() <b>&#124; &#124;</b> isAllTablet()
+| `detectedDevice.isAllTablet()`        | `true`,`false`                 | isSmallTablet() <b>&#124;&#124;</b> isBigTablet()
+| `detectedDevice.isAllMobileDevices()` | `true`,`false`                 | isMobile() <b>&#124;&#124;</b> isAllTablet()
