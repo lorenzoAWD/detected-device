@@ -60,5 +60,5 @@ else{
 | `detectedDevice.isMobile()`           | `portrait`,`landscape`,`false` |
 | `detectedDevice.isSmallTablet()`      | `portrait`,`landscape`,`false` |
 | `detectedDevice.isBigTablet()`        | `portrait`,`landscape`,`false` |
-| `detectedDevice.isAllTablet()`        | `true`,`false`                 | isSmallTablet() || isBigTablet()
-| `detectedDevice.isAllMobileDevices()` | `true`,`false`                 | isMobile() || isAllTablet()
+| `detectedDevice.isAllTablet()`        | `true`,`false`                 | isSmallTablet() or isBigTablet()
+| `detectedDevice.isAllMobileDevices()` | `true`,`false`                 | isMobile() or isAllTablet()
