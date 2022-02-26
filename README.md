@@ -17,10 +17,6 @@ import {detectedDevice} from 'detected-device'
 
 let isMobile = detectedDevice.isMobile()
 
-window.addEventListener('resize', () => {
-    isMobile = detectedDevice.isMobile()
-})
-
 if(isMobile){
     //code for portrait or landscape smartphone here...
 }
@@ -35,11 +31,6 @@ import {detectedDevice} from 'detected-device'
 
 let isMobile = detectedDevice.isMobile()
 
-window.addEventListener('resize', () => {
-    isMobile = detectedDevice.isMobile()
-})
-
-//You can
 
 if(isMobile === 'portrait'){
     //code for portrait smartphone here...
