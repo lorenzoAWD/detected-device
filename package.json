@@ -1,6 +1,6 @@
 {
   "name": "detected-device",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,5 @@
     "url": "https://github.com/lorenzoAWD/detected-device/issues"
   },
   "homepage": "https://github.com/lorenzoAWD/detected-device#readme",
-  "description": ""
+  "description": "Get the device type, based on window.innerWidth and window.innerHeight"
 }
