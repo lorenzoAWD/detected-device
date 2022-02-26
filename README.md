@@ -10,7 +10,7 @@ npm i detected-device
 ## Usage
 
 ### Basic
-Whith a simple detection
+With a simple detection
 
 ```js
 import {detectedDevice} from 'detected-device'
