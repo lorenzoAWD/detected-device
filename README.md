@@ -9,8 +9,6 @@ npm i detected-device
 
 ## Usage
 
-### Basic
-With a simple detection
 
 ```js
 import {detectedDevice} from 'detected-device'
@@ -19,29 +17,18 @@ let isMobile = detectedDevice.isMobile()
 
 if(isMobile){
     //code for portrait or landscape smartphone here...
-}
-
-```
-
-### Detect device orientation
-With specific portrait or landscape detection
-
-```js
-import {detectedDevice} from 'detected-device'
-
-let isMobile = detectedDevice.isMobile()
-
-if(isMobile === 'portrait'){
-    //code for portrait smartphone here...
-}
-else if(isMobile === 'landscape'){
-    //code for landscape smartphone here...
+    if(isMobile === 'portrait'){
+        //code for portrait smartphone here...
+    }
+    else if(isMobile === 'landscape'){
+        //code for landscape smartphone here...
+    }
 }
 else{
     //is not mobile device
 }
-```
 
+```
 
 ## Instance options
 
