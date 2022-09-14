@@ -36,7 +36,7 @@ const isSmallTablet = () => {
 }
 
 const isBigTablet = () => {
-    if(winsize.width >= 1024 && winsize.width <=1366 && winsize.height >= 1024){
+    if(winsize.width >= 1024 && winsize.width <=1366 && winsize.height >= 900){
         if(winsize.width < winsize.height){
             return 'portrait'
         }
